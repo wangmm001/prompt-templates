@@ -1,0 +1,50 @@
+# Prompt Templates - .gitignore
+
+# ==================== Python ====================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+*.egg-info/
+
+# ==================== IDE ====================
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ==================== Logs ====================
+*.log
+logs/
+
+# ==================== Environment ====================
+.env
+.env.local
+.env.*.local
+
+# ==================== Config ====================
+config/*.yaml
+!config/*.example.yaml
+
+# ==================== Examples ====================
+examples/output-samples/*.json
+examples/output-samples/*.txt
+!examples/output-samples/.gitkeep
+
+# ==================== OS ====================
+.DS_Store
+Thumbs.db
+
+# ==================== Testing ====================
+.coverage
+htmlcov/
+.pytest_cache/
+
+# ==================== Temporary ====================
+tmp/
+temp/
+*.tmp
